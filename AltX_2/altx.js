@@ -124,4 +124,4 @@ function init(){
 	checkVideoFeatures(play);
 }
 
-init();
+console.log("test 123");
