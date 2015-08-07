@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Getting started example",
+  "description": "Use gestures to use amazon",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "http://www.amazon.in/*", "https://www.amazon.in/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://www.amazon.in/*", "https://www.amazon.in/*"],
+      "js": ["jquery.js", "onscreen.js", "objectdetect.js", "objectdetect.handfist.js", "objectdetect.handopen.js", "compatibility.js", "altx.js", "main.js"],
+	  "css": ["styles.css"]
+    }
+  ],
+  "web_accessible_resources": ["images/eyecon.png"]
+}

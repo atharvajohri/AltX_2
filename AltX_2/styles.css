@@ -1,0 +1,7 @@
+#altx-controller {position: fixed;background:red;opacity:0.2;z-index:9999999;}
+.hide {display: none !important}
+
+.altx-highlight {border:2px solid black !important}
+#altx-init {cursor:pointer;z-index:999999;width:25px;height:20px;position:fixed;}
+#altx-init.altx-eyecon-close {background-position: 0px 0px !important}
+#altx-init.altx-eyecon-open {background-position: 25px 0px !important}
